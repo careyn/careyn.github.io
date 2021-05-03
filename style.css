@@ -1,0 +1,29 @@
+.button2 {
+	border-radius: 4px;
+	background-color: white;
+	border: white;
+	color: #4BAFE5;
+	transition-duration: 0.4s;
+	padding: 10px 25px;
+}
+.button2:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.img {
+  border-radius: 50%;
+}
+.image-1 {
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+}
+.filter{
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+}
+
+li {
+	color: white;
+}
