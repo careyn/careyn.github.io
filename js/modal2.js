@@ -1,4 +1,4 @@
-window.onload = function(){
+$(document).ready(function(){
   var modal2 = document.getElementById("myModal2");
 
   // Get the button that opens the modal
@@ -16,4 +16,4 @@ window.onload = function(){
   span2.onclick = function() {
     modal2.style.display = "none";
   }
-}
+})
