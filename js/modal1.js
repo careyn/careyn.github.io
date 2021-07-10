@@ -1,4 +1,4 @@
-$(document).ready(function(){
+window.onload = function(){
   // Get the modal
   var modal = document.getElementById("myModal");
 
@@ -17,4 +17,4 @@ $(document).ready(function(){
   span.onclick = function() {
     modal.style.display = "none";
   }
-})
+}

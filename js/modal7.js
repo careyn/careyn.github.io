@@ -1,4 +1,4 @@
-$(document).ready(function(){
+window.onload = function(){
   var modal7 = document.getElementById("myModal7");
 
   // Get the button that opens the modal
@@ -16,4 +16,4 @@ $(document).ready(function(){
   span7.onclick = function() {
     modal7.style.display = "none";
   }
-})
+}
